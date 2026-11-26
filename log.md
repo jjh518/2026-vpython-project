@@ -1,21 +1,17 @@
-Web VPython 3.2
-box(texture =  "https://i.postimg.cc/zvCnYX5j/sr27b890af2ad78.png")
-
-
-
-b = sphere (size = vec(0.1,0.1,0.1), color = color.yellow, radius =0.05)
-while True :
-   rate(100)
-   k = keysdown()
-   if 'left'in k :
-      b.pos.x = b.pos.x - 0.003
-   if'right'in k :
-      b.pos.x = b.pos.x + 0.003
-   if'up'in k :  
-      b.pos.y = b.pos.y + 0.003
-   if'down'in k :      
-      b.pos.y = b.pos.y - 0.003 
-   if 'w' in k:
-        b.pos.z += 0.01
-   if 's' in k:
-        b.pos.z -= 0.01
+11/3
+오늘한일 네모 사진에 내가 할 맵 사진을 붙였다
+다음에 할일 팩맨 만들기
+11/5
+오늘한일 동그란 구를 만들었다
+다음에 할일 팩맨 움직이기
+11/12
+오늘한일 팩맨을 앞으로만 움직이게 됐다
+다음에 할일 팩맨을 자유 자제로 움직이기
+11/17
+오늘한일 팩맨을 오른 왼쪽만 움직일수 있게 하였다
+다음에 할일 팩맨을 아래 위로 만들고 크기 조정
+11/24
+오늘 한일 팩맨을 오른 왼쪽 움직일수있게 하였다
+다음에 할일은 크기와 속도 조정
+11/26
+끝
